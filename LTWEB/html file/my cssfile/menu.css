@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+#menu > ol{
+	list-style:none;
+	background-color:#333;
+	width:1000px;
+	height:40px;
+	margin:0;
+	margin:auto;
+	position:relative;
+	}
+#menu >ol> li{
+	display:inline-block;
+	line-height:40px;
+	padding:0 20px;
+	float:left;
+}
+
+#menu ol li a{
+	color:#FFF;
+	text-decoration:none;
+}
+#menu >ol >li:hover{
+	background-color:#0C0;
+}
+div #cap2 >li{
+	list-style:none;
+	width:100px;
+	height:auto;
+	top:0;
+	left:0;
+}
+div #cap2 li{
+	padding-left:0px;
+	padding-right:0px;
+}
